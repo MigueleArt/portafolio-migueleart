@@ -13,18 +13,18 @@ export default function About() {
         Sobre mí
       </h2>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-12 leading-relaxed">
+      <div className="flex flex-col gap-8 leading-relaxed">
         <div className="space-y-4">
           <p className="text-white/80">
-            Soy estudiante de <span className="text-accent font-medium">Técnico Superior Universitario en Tecnologías de la Información</span>, área de Desarrollo de Software Multiplataforma en la Universidad Tecnológica de Tehuacán. 
+            Soy un desarrollador apasionado por crear tecnología que impacta. Actualmente me enfoco en el <span className="text-accent font-medium">desarrollo de plataformas empresariales de alto rendimiento</span>, especializándome en arquitecturas modernas que combinan la potencia de la nube con experiencias móviles nativas.
           </p>
           <p className="text-white/80">
-            Me considero una persona altamente motivada y apasionada por el desarrollo de software. He tenido la oportunidad de trabajar en proyectos reales que me han permitido aplicar mis conocimientos y seguir creciendo profesionalmente.
+            En mi rol actual, lidero la construcción de soluciones críticas para logística y ventas, integrando <span className="text-white font-medium">Inteligencia Artificial (Gemini)</span> para automatizar procesos y mejorar la toma de decisiones. Mi enfoque se centra en la eficiencia operativa, la seguridad y una experiencia de usuario excepcional.
           </p>
           
           <div className="pt-4">
             <h4 className="text-sm font-bold uppercase tracking-widest text-white/40 mb-4">Idiomas</h4>
-            <div className="flex gap-4">
+            <div className="flex gap-8">
               <div className="flex flex-col">
                 <span className="font-bold">Español</span>
                 <span className="text-xs text-white/50">Nativo</span>
@@ -39,7 +39,7 @@ export default function About() {
 
         <div className="bg-white/5 p-6 rounded-2xl border border-white/5">
           <h4 className="text-sm font-bold uppercase tracking-widest text-white/40 mb-6">Intereses personales</h4>
-          <ul className="grid grid-cols-2 gap-4 text-sm font-medium">
+          <ul className="flex flex-wrap gap-x-6 gap-y-4 text-sm font-medium">
             <li className="flex items-center gap-2">
               <span className="w-1.5 h-1.5 rounded-full bg-accent" />
               Fútbol

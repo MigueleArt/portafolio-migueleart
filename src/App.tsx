@@ -45,11 +45,7 @@ export default function App() {
 
         {/* Full-width sections below the main grid */}
         <div className="mt-32 space-y-32">
-          <div className="flex items-center justify-center gap-4 py-8">
-            <div className="h-[1px] flex-1 bg-gradient-to-r from-transparent via-gold/30 to-gold/50" />
-            <div className="w-2 h-2 rotate-45 bg-gold shadow-[0_0_8px_rgba(212,175,55,0.8)]" />
-            <div className="h-[1px] flex-1 bg-gradient-to-l from-transparent via-gold/30 to-gold/50" />
-          </div>
+
           <Projects />
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24">
             <About />

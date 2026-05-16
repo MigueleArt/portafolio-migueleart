@@ -3,24 +3,28 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
+export interface Degree {
+  name: string
+  period: string
+}
+
 export interface Education {
   institution: string
-  degree: string
-  startYear: string
-  endYear: string
+  degrees: Degree[]
 }
 
 export const education: Education[] = [
   {
     institution: "Universidad Tecnológica de Tehuacán",
-    degree: "TSU en Tecnologías de la Información — Desarrollo de Software Multiplataforma",
-    startYear: "2023",
-    endYear: "Actual"
+    degrees: [
+      { name: "Ingeniería en Desarrollo y Gestión de Software", period: "2025 — Actual" },
+      { name: "TSU en Tecnologías de la Información — Desarrollo de Software Multiplataforma", period: "2023 — 2025" }
+    ]
   },
   {
     institution: "CONALEP Tehuacán",
-    degree: "Técnico en Soporte y Mantenimiento de Equipo de Cómputo",
-    startYear: "2019",
-    endYear: "2022"
+    degrees: [
+      { name: "Técnico en Soporte y Mantenimiento de Equipo de Cómputo", period: "2019 — 2022" }
+    ]
   }
 ]

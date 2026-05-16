@@ -33,10 +33,20 @@ export default function Contact() {
           </div>
 
           <div className="flex gap-4">
-             <a href="#" className="p-3 rounded-xl bg-white/5 border border-white/10 hover:bg-white hover:text-black transition-all">
+            <a 
+              href="https://github.com/MigueleArt" 
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-3 rounded-xl bg-white/5 border border-white/10 hover:bg-white hover:text-black transition-all"
+            >
               <Github className="w-6 h-6" />
             </a>
-            <a href="#" className="p-3 rounded-xl bg-white/5 border border-white/10 hover:bg-blue-600 hover:text-white transition-all">
+            <a 
+              href="https://www.linkedin.com/in/josé-miguel-jimenez-enriquez-4b092b331" 
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-3 rounded-xl bg-white/5 border border-white/10 hover:bg-blue-600 hover:text-white transition-all"
+            >
               <Linkedin className="w-6 h-6" />
             </a>
           </div>
@@ -45,23 +55,23 @@ export default function Contact() {
         <form className="space-y-4" onSubmit={(e) => e.preventDefault()}>
           <div className="space-y-2">
             <label className="text-xs font-bold uppercase tracking-widest text-white/40 ml-1">Nombre</label>
-            <input 
-              type="text" 
+            <input
+              type="text"
               className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 focus:outline-none focus:border-accent/50 focus:bg-white/[0.08] transition-all"
               placeholder="Tu nombre..."
             />
           </div>
           <div className="space-y-2">
             <label className="text-xs font-bold uppercase tracking-widest text-white/40 ml-1">Email</label>
-            <input 
-              type="email" 
+            <input
+              type="email"
               className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 focus:outline-none focus:border-accent/50 focus:bg-white/[0.08] transition-all"
               placeholder="tu@email.com"
             />
           </div>
           <div className="space-y-2">
             <label className="text-xs font-bold uppercase tracking-widest text-white/40 ml-1">Mensaje</label>
-            <textarea 
+            <textarea
               rows={4}
               className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 focus:outline-none focus:border-accent/50 focus:bg-white/[0.08] transition-all resize-none"
               placeholder="¿Cómo puedo ayudarte?"

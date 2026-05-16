@@ -22,24 +22,24 @@ export default function Hero() {
           </div>
         </div>
 
-        <motion.h1 
+        <motion.h1
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           className="text-5xl font-black leading-tight glow-text"
         >
-          Hey, soy <span className="text-accent">José Miguel</span>
+          Hola, soy <span className="text-accent">José Miguel</span>
         </motion.h1>
 
-        <motion.p 
+        <motion.p
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.1 }}
           className="text-white/80 text-lg leading-relaxed max-w-md"
         >
-          Desarrollador de Software Multiplataforma en formación. <span className="text-white">Apasionado por construir soluciones reales</span> de Tehuacán, México.
+          Desarrollador de Software <span className="text-white">Full Stack & Mobile-First</span>. Especializado en crear soluciones empresariales escalables con React 19, Firebase e Inteligencia Artificial.
         </motion.p>
 
-        <motion.div 
+        <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.2 }}
@@ -54,7 +54,9 @@ export default function Hero() {
             Contáctame
           </a>
           <a
-            href="#"
+            href="https://www.linkedin.com/in/josé-miguel-jimenez-enriquez-4b092b331"
+            target="_blank"
+            rel="noopener noreferrer"
             className="flex items-center justify-center gap-2 px-6 py-2 rounded-full border border-white/20 font-bold text-sm hover:border-accent transition-colors"
             id="hero-linkedin"
           >
@@ -62,7 +64,9 @@ export default function Hero() {
             LinkedIn
           </a>
           <a
-            href="#"
+            href="https://github.com/MigueleArt"
+            target="_blank"
+            rel="noopener noreferrer"
             className="flex items-center justify-center gap-2 px-6 py-2 rounded-full border border-white/20 font-bold text-sm hover:border-accent transition-colors"
             id="hero-github"
           >
