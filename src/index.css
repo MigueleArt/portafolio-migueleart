@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Onest:wght@400;500;700;900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Onest", ui-sans-serif, system-ui, sans-serif;
+  --color-accent: #00f2ff;
+  --color-accent-hover: #33f5ff;
+  --color-surface: #0a1120;
+  --color-navy-dark: #050811;
+  --color-gold: #d4af37;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply bg-navy-dark text-white font-sans antialiased;
+    background-image: 
+      radial-gradient(circle at 50% 0%, rgba(0, 242, 255, 0.05) 0%, transparent 50%),
+      radial-gradient(circle at 100% 100%, rgba(59, 130, 246, 0.03) 0%, transparent 50%);
+  }
+}
+
+.glow-text {
+  text-shadow: 0 0 10px rgba(0, 242, 255, 0.3);
+}
+
+.glow-border {
+  box-shadow: 0 0 15px rgba(0, 242, 255, 0.1);
+}
+
+.markdown-body {
+  @apply text-white/80 leading-relaxed;
+}
